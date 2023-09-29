@@ -212,7 +212,7 @@ public class signUpThree extends JFrame implements ActionListener{
     }
 
     public void actionPerformed(ActionEvent ae){
-        /*String atype = null;
+        String atype = null;
         if(r1.isSelected()){
             atype = "Saving Account";
         }
@@ -275,7 +275,7 @@ public class signUpThree extends JFrame implements ActionListener{
 
         }catch(Exception ex){
             ex.printStackTrace();
-        }*/
+        }
 
     }
 

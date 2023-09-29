@@ -207,7 +207,7 @@ public class signUpTwo extends JFrame implements ActionListener{
     }
 
     public void actionPerformed(ActionEvent ae){
-        /*String religion = (String)c1.getSelectedItem();
+        String religion = (String)c1.getSelectedItem();
         String category = (String)c2.getSelectedItem();
         String income = (String)c3.getSelectedItem();
         String education = (String)c4.getSelectedItem();
@@ -239,7 +239,7 @@ public class signUpTwo extends JFrame implements ActionListener{
                 String q1 = "insert into signup2 values('"+formno+"','"+religion+"','"+category+"','"+income+"','"+education+"','"+occupation+"','"+pan+"','"+aadhar+"','"+scitizen+"','"+eaccount+"')";
                 c1.s.executeUpdate(q1);
 
-                new Signup3(formno).setVisible(true);
+                new signUpThree(formno).setVisible(true);
                 setVisible(false);
             }
 
@@ -247,7 +247,7 @@ public class signUpTwo extends JFrame implements ActionListener{
 
         }catch(Exception ex){
             ex.printStackTrace();
-        }*/
+        }
 
 
     }

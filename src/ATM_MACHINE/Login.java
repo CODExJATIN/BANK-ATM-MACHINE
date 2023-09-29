@@ -80,7 +80,7 @@ public class Login extends JFrame implements ActionListener{
 
     }
     public void actionPerformed(ActionEvent ae){
-        /*try{
+        try{
             if(ae.getSource()==signin){
                 Conn c1 = new Conn();
                 String cardno  = tf1.getText();
@@ -99,11 +99,11 @@ public class Login extends JFrame implements ActionListener{
                 pf2.setText("");
             }else if(ae.getSource()==b3){
                 setVisible(false);
-                new Signup().setVisible(true);
+                new signUpOne().setVisible(true);
             }
         }catch(Exception e){
             e.printStackTrace();
-        }*/
+        }
     }
     public static void main(String[] args){
         new Login();

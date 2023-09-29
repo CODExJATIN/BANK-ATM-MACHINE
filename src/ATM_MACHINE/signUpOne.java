@@ -230,7 +230,7 @@ public class signUpOne extends JFrame implements ActionListener{
 
     public void actionPerformed(ActionEvent ae){
 
-       /* String formno = first;
+        String formno = first;
         String name = t1.getText();
         String fname = t2.getText();
         String dob = ((JTextField) dateChooser.getDateEditor().getUiComponent()).getText();
@@ -266,13 +266,13 @@ public class signUpOne extends JFrame implements ActionListener{
                 String q1 = "insert into signup values('"+formno+"','"+name+"','"+fname+"','"+dob+"','"+gender+"','"+email+"','"+marital+"','"+address+"','"+city+"','"+pincode+"','"+state+"')";
                 c1.s.executeUpdate(q1);
 
-                new Signup2(first).setVisible(true);
+                new signUpTwo(first).setVisible(true);
                 setVisible(false);
             }
 
         }catch(Exception e){
             e.printStackTrace();
-        }*/
+        }
 
     }
 
